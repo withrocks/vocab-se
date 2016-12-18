@@ -1,0 +1,9 @@
+Goal:
+* Create a translated Anki flashcard set with the 8000 most common words in Swedish
+
+
+Method:
+* Use the freq. wordlist "kelly". Move the xml file (kelly.xml) into sqlite and have indexable by lowercase written-by form
+* Use the translations from "folkets lexicon" (folkets_sv_en_public.xml). Write another script for moving that also into sqlite
+* Do a query that matches the two.
+
